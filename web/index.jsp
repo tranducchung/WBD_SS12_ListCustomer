@@ -34,9 +34,9 @@
       </tr>
       <c:forEach var="rows" items="${data}">
        <tr>
-         <td>${rows.getName()}</td>
-           <td>${rows.getAge()}</td>
-           <td>${rows.getAddress()}</td>
+         <td>${rows.name}</td>
+           <td>${rows.age}</td>
+           <td>${rows.address}</td>
        </tr>
       </c:forEach>
     </table>

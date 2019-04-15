@@ -5,9 +5,9 @@ public class Customer {
     private int age;
     private String address;
 
-    public Customer(String name, int birthday, String address) {
+    public Customer(String name, int age, String address) {
         this.name = name;
-        this.age = birthday;
+        this.age = age;
         this.address = address;
     }
 
